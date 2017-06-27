@@ -1,0 +1,14 @@
+{
+  "name": "flexbox-cheatsheet",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./dist && mkdirp dist",
+    "minify": "html-minifier src/flexbox-cheatsheet.html -o dist/flexbox-cheatsheet.html --minify-css --remove-comments --collapse-whitespace",
+    "build": "npm run clean && npm run minify"
+  },
+  "devDependencies": {
+    "html-minifier": "^3.5.2",
+    "rimraf": "^2.6.1"
+  }
+}
