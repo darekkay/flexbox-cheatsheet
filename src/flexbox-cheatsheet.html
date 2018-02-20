@@ -63,8 +63,8 @@
 
     @media only screen and (min-width: 810px) {
       .container:nth-child(2),
-      .resources { 
-        margin-right: auto; 
+      .resources {
+        margin-right: auto;
       }
     }
 
@@ -89,9 +89,15 @@
       margin-bottom: 2px;
       font-family: Consolas, monospace;
       font-size: 14px;
+      min-height: 42px;
     }
 
     .default { font-weight: bold; }
+
+    .shorthand-hint {
+      font-size: 10px;
+      color: #797979;
+    }
 
   </style>
 </head>
@@ -165,6 +171,15 @@
             </g>
           </g>
         </svg>
+      </div>
+    </div>
+
+    <!-- flex-flow -->
+    <div class="group">
+      <div class="row">
+        <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow" target="_blank" rel="noopener">flex-flow</a>:
+          <span class="default">row nowrap;</span> <span class="shorthand-hint">(flex-direction flex-wrap)</span>
+        </div>
       </div>
     </div>
 
@@ -1007,6 +1022,14 @@
       </div>
     </div>
 
+    <!-- flex -->
+    <div class="group">
+      <div class="row">
+        <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="noopener">flex</a>:
+          <span class="default">0 1 auto;</span> <span class="shorthand-hint">(flex-grow flex-shrink flex-basis)</span>
+        </div>
+      </div>
+    </div>
 
     <!-- flex-grow -->
     <div class="group">
@@ -1371,7 +1394,7 @@
       <li><a href="https://github.com/philipwalton/flexbugs" target="_blank" rel="noopener">Flexbugs</a> - Flexbox issues</li>
     </ul>
   </div>
-  
+
 </main>
 
 <footer>
