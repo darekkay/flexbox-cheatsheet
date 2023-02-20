@@ -1,1 +1,1 @@
-**This project was merged into → [dev-tools](https://github.com/darekkay/dev-tools)**
+**This cheatsheet is now available as part of my [blog](https://darekkay.com/flexbox-cheatsheet/)**
